@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import json
 import math
+import os
 from typing import Any
 
 import httpx
@@ -25,10 +26,17 @@ import mcp.types as types
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # ── Constants ────────────────────────────────────────────────────────────────
 
-SBIR_API   = "https://api.sbir.gov/public/api"
-SAM_API    = "https://api.sam.gov/opportunities/v2/search"
+SBIR_API            = "https://api.sbir.gov/public/api"
+SAM_API             = "https://api.sam.gov/opportunities/v2/search"
+REGULATIONS_GOV_API = "https://api.regulations.gov/v4"
 
 # All three Coharts focus areas with weighted keyword sets
 FOCUS_AREAS: dict[str, list[str]] = {
@@ -189,6 +197,71 @@ async def _sbir_solicitations(
         return [{"_api_error": str(exc), "source": "sbir_solicitations"}]
 
 
+# ── Regulations.gov helpers ───────────────────────────────────────────────────
+
+def _normalise_comment(item: dict) -> dict:
+    attrs = item.get("attributes", {})
+    return {
+        "id": item.get("id", ""),
+        "title": attrs.get("title", ""),
+        "comment_text": (attrs.get("comment") or "")[:1000],
+        "posted_date": attrs.get("postedDate", ""),
+        "submitter_name": attrs.get("submitterName", ""),
+        "organization": attrs.get("organization", ""),
+        "comment_on_document_id": attrs.get("commentOnDocumentId", ""),
+        "docket_id": attrs.get("docketId", ""),
+        "document_type": attrs.get("documentType", ""),
+        "withdrawn": attrs.get("withdrawn", False),
+        "detail_url": (item.get("links") or {}).get("self", ""),
+    }
+
+
+async def _fetch_comments(
+    docket_id: str,
+    api_key: str,
+    page_size: int = 50,
+    page_number: int = 1,
+    sort: str = "-postedDate",
+    search_term: str = "",
+) -> dict:
+    params: dict[str, Any] = {
+        "filter[docketId]": docket_id,
+        "page[size]": min(max(1, page_size), 250),
+        "page[number]": max(1, page_number),
+        "sort": sort,
+        "api_key": api_key,
+    }
+    if search_term:
+        params["filter[searchTerm]"] = search_term
+
+    try:
+        async with httpx.AsyncClient(timeout=30) as client:
+            r = await client.get(f"{REGULATIONS_GOV_API}/comments", params=params)
+            r.raise_for_status()
+            data = r.json()
+        comments = [_normalise_comment(item) for item in data.get("data", [])]
+        meta = data.get("meta", {})
+        return {
+            "status": "ok",
+            "docket_id": docket_id,
+            "total_elements": meta.get("totalElements", len(comments)),
+            "page_number": page_number,
+            "page_size": page_size,
+            "total_pages": meta.get("totalPages"),
+            "comments": comments,
+        }
+    except httpx.HTTPStatusError as exc:
+        if exc.response.status_code == 403:
+            return {"status": "error", "error": "Invalid or missing API key for regulations.gov"}
+        if exc.response.status_code == 404:
+            return {"status": "error", "error": f"Docket '{docket_id}' not found on regulations.gov"}
+        return {"status": "error", "error": f"HTTP {exc.response.status_code}: {exc.response.text[:300]}"}
+    except httpx.ConnectError as exc:
+        return {"status": "error", "error": f"Connection failed: {exc}"}
+    except Exception as exc:
+        return {"status": "error", "error": str(exc)}
+
+
 # ── MCP Server ────────────────────────────────────────────────────────────────
 
 app = Server("coharts-grants")
@@ -285,6 +358,55 @@ async def list_tools() -> list[types.Tool]:
                     },
                 },
                 "required": ["contract_number"],
+            },
+        ),
+        types.Tool(
+            name="fetch_fda_comments",
+            description=(
+                "Fetch public comments submitted to an FDA docket on regulations.gov. "
+                "Useful for monitoring regulatory sentiment, stakeholder positions, and "
+                "competitive intelligence on FDA rulemakings relevant to Coharts. "
+                "Requires a regulations.gov API key (set REGULATIONS_GOV_API_KEY env var "
+                "or pass via api_key parameter; use 'DEMO_KEY' for low-volume testing)."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "docket_id": {
+                        "type": "string",
+                        "description": "FDA docket ID on regulations.gov (e.g. 'FDA-2026-N-4390').",
+                    },
+                    "page_size": {
+                        "type": "integer",
+                        "description": "Number of comments per page (1–250). Default: 50.",
+                        "default": 50,
+                    },
+                    "page_number": {
+                        "type": "integer",
+                        "description": "Page number to retrieve (1-based). Default: 1.",
+                        "default": 1,
+                    },
+                    "sort": {
+                        "type": "string",
+                        "description": (
+                            "Sort order. Use '-postedDate' (newest first, default), "
+                            "'postedDate' (oldest first), or 'lastModifiedDate'."
+                        ),
+                        "default": "-postedDate",
+                    },
+                    "search_term": {
+                        "type": "string",
+                        "description": "Optional keyword to filter comments by text.",
+                    },
+                    "api_key": {
+                        "type": "string",
+                        "description": (
+                            "regulations.gov API key. Falls back to REGULATIONS_GOV_API_KEY "
+                            "env var. Use 'DEMO_KEY' for limited testing."
+                        ),
+                    },
+                },
+                "required": ["docket_id"],
             },
         ),
         types.Tool(
@@ -527,6 +649,29 @@ async def call_tool(name: str, arguments: dict) -> list[types.TextContent]:
             "topic_code": match.get("solicitation_topic_code", ""),
             "coharts_relevance": scoring,
         }
+        return [types.TextContent(type="text", text=json.dumps(result, indent=2))]
+
+    # ── fetch_fda_comments ────────────────────────────────────────────────
+    elif name == "fetch_fda_comments":
+        docket_id   = arguments["docket_id"].strip()
+        page_size   = int(arguments.get("page_size", 50))
+        page_number = int(arguments.get("page_number", 1))
+        sort        = arguments.get("sort", "-postedDate")
+        search_term = arguments.get("search_term", "")
+        api_key     = (
+            arguments.get("api_key")
+            or os.environ.get("REGULATIONS_GOV_API_KEY")
+            or "DEMO_KEY"
+        )
+
+        result = await _fetch_comments(
+            docket_id=docket_id,
+            api_key=api_key,
+            page_size=page_size,
+            page_number=page_number,
+            sort=sort,
+            search_term=search_term,
+        )
         return [types.TextContent(type="text", text=json.dumps(result, indent=2))]
 
     # ── rank_by_relevance ────────────────────────────────────────────────
