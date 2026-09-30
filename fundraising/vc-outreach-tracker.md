@@ -1,8 +1,8 @@
 # Coharts Seed — VC Outreach Tracker
 
-**Owner:** Nate (nate@coharts.com) · **Last updated:** 2026-07-27
+**Owner:** Nate (nate@coharts.com) · **Last updated:** 2026-09-30 (reframed to two-product line: iViz + Foresight)
 
-Companion to [`techbio-vc-targets.md`](./techbio-vc-targets.md). Status legend: `⬜ Not started` · `🔎 Verifying contact` · `🤝 Seeking warm intro` · `✉️ Reached out` · `💬 In conversation` · `📅 Meeting set` · `✅ Advanced / diligence` · `❌ Pass`.
+Companion to [`techbio-vc-targets.md`](./techbio-vc-targets.md). Coharts is positioned as an Applied AI company with two products: iViz (AI data workbench, PLG) and Foresight (clinical trial simulation). Two investor doors: TechBio and applied-AI/data-tooling. Status legend: `⬜ Not started` · `🔎 Verifying contact` · `🤝 Seeking warm intro` · `✉️ Reached out` · `💬 In conversation` · `📅 Meeting set` · `✅ Advanced / diligence` · `❌ Pass`.
 
 **Rule:** verify the email (or secure a warm intro) BEFORE moving to `✉️ Reached out`. Personal emails in the target list are inferred, not confirmed.
 
@@ -14,7 +14,9 @@ Companion to [`techbio-vc-targets.md`](./techbio-vc-targets.md). Status legend: 
 | 2 | a16z Bio+Health | Julie Yoo / Jay Rughani | 1 | Warm — a16z portfolio founder | ❌ | ⬜ | Map portfolio-founder connections | — |
 | 3 | Section 32 | Michael Pellini | 1 | Warm — Foundation Medicine / Freenome alum | ❌ | ⬜ | Find FMI/Freenome contact | — |
 | 4 | Menlo Ventures | Greg Yap | 2 | Warm — Menlo LS portfolio CEO | ❌ | ⬜ | Verify email; find intro | — |
-| 5 | Foresite Capital | Vik Bajaj | 1 | Warm — Foresite Labs network | ❌ (vik vs vikram) | ⬜ | Confirm local-part; find intro | — |
+| 5 | Conviction | Sarah Guo | 2B | Applied-AI intro path | ❌ (confirm fund + contact) | ⬜ | Verify fund status & contact | — |
+
+*(Foresite Capital / Vik Bajaj drops just outside the top 5 with the two-product reframe; still a strong Tier-1 Foresight target — keep in the full pipeline.)*
 
 ## Full pipeline
 
@@ -34,8 +36,11 @@ Companion to [`techbio-vc-targets.md`](./techbio-vc-targets.md). Status legend: 
 | Khosla Ventures | Alex Morgan | 2 | AI/ML + health | LinkedIn/warm | ❌ | ⬜ | Verify am@ vs alex@ | — |
 | Bessemer | Steve Kraus | 2 | Healthcare-IT depth | Warm/LinkedIn | ❌ | ⬜ | Verify email | — |
 | Zetta VP | Jocelyn Goldfein | 2 | AI-first B2B | LinkedIn | ❌ | ⬜ | Verify email | — |
-| Amplify Partners | Sarah Catanzaro | 2 | ML/data infra angle | LinkedIn | ❌ | ⬜ | Frame as ML/data product | — |
-| Obvious Ventures | James Joaquin | 3 | Human health + AI | LinkedIn | ❌ | ⬜ | Verify email | — |
+| Amplify Partners | Sarah Catanzaro | 2B | ML/data infra angle (iViz) | LinkedIn | ❌ | ⬜ | Frame as ML/data product | — |
+| Conviction | Sarah Guo | 2B | Applied-AI workbench + agents | Site/LinkedIn | ❌ (NEW) | ⬜ | Verify fund + contact | — |
+| Radical Ventures | TBD (AI-for-science) | 2B | AI-first, AI-for-science | Site/LinkedIn | ❌ (NEW) | ⬜ | Identify partner; verify | — |
+| Basis Set Ventures | TBD | 2B | AI/data-tooling seed (iViz) | Site/LinkedIn | ❌ (NEW) | ⬜ | Identify partner; verify | — |
+| Obvious Ventures | James Joaquin | 2A | Human health + AI | LinkedIn | ❌ | ⬜ | Verify email | — |
 | Civilization Ventures | TBD (verify) | 3 | Seed health-tech | Site/LinkedIn | ❌ | ⬜ | Identify named partner | — |
 | Casdin Capital | Eli Casdin | 3 (strategic) | Tools/crossover | LinkedIn | ❌ | ⬜ | Approach as strategic | — |
 | Catalio Capital | Jacob Vogelstein | 3 (strategic) | Therapeutics/devices | LinkedIn | ❌ | ⬜ | Approach as strategic | — |
@@ -47,6 +52,7 @@ Companion to [`techbio-vc-targets.md`](./techbio-vc-targets.md). Status legend: 
 ## Notes / log
 
 - **2026-07-27** — Target list + tracker created from web research. All personal emails inferred; none verified. Next step: verify top-5 emails and map warm-intro paths from cap table / advisors / customers.
+- **2026-09-30** — Reframed to current two-product line (iViz + Foresight) from coharts.com. Dropped PRISM from investor framing (not public). Added applied-AI / data-tooling segment (Conviction, Radical, Basis Set) for the iViz + "Applied AI company" thesis. New top-5 slots Conviction at #5. NEW rows need activity + roster + email verification. Premium data sources (PitchBook/CBI/ZoomInfo/HubSpot) not connected this session, so no scored workbook or pipeline dedupe yet.
 
 ---
 

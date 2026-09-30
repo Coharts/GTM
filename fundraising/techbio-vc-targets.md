@@ -1,97 +1,102 @@
-# Coharts Seed Round — TechBio / AI-x-Bio VC Target List
+# Coharts Seed Round — Applied AI VC Target List
 
-**Prepared:** 2026-07-27 · **Owner:** Nate (nate@coharts.com) · **Status:** Research draft — verify before outreach
+**Prepared:** 2026-07-27 · **Revised:** 2026-09-30 (reframed to current product line from coharts.com) · **Owner:** Nate (nate@coharts.com) · **Status:** Research draft, verify before outreach
 
-Coharts = AI + clinical-development-intelligence **software** (Foresight, iViz, PRISM); SaaS + Intelligence-as-a-Service; buyers = biotech/pharma + CROs. This list targets VCs actively deploying capital at seed/early stage with an AI + life-sciences / clinical-software thesis.
+## What Coharts is (current, per coharts.com)
+
+**An Applied AI company: Intelligence for complex decisions. We start with biology.** Two products, publicly:
+
+- **iViz** — AI analytical workbench. Rigorous analysis of any data, with or without code: **Flow** (no-code visual canvas, AI assistant Mona) and **Notebook** (Python/R on cloud kernels, AI assistant Merlin). Free plan, self-serve, per-seat tiers. Horizontal: anyone who works with data. This is the **applied-AI / PLG / data-tooling** story.
+- **Foresight** — clinical trial simulation. "Simulate success before patient one." Digital-twin cohorts (Athena), bring-your-own MATLAB/SBML models (Eigen), a high-performance Simulator, embedded iViz, and BEAM (conversational pharmacometrics agent). FDA-aligned methodology. This is the **TechBio / in-silico-trials** story.
+- **Proof point to lead with:** Foresight was validated against the real **LEAP trial (NCT01124786)**, a Phase II metastatic pancreatic cancer study, reproducing the key efficacy endpoints including the **null result (HR ~1.0)** within **±0.6 months** median overall survival.
+- Business model: **IaaS (Intelligence as a Service), never "SaaS."** Buyers: clinical pharmacologists, biostatisticians, trial designers, biotech/pharma, CROs (Foresight); plus a broad self-serve data audience (iViz).
+
+**Why this changes the target list:** the company now has **two investor doors**, not one. Foresight fits **TechBio / AI-drug-development** funds; iViz + the company-level "Applied AI" narrative also fit **applied-AI, vertical-AI, and data/dev-tooling** funds that would not have looked at a pure biotech play. The best-fit investors get *both*.
+
+> Conflict check before any Tier-1 outreach: avoid firms holding a direct competitor to Foresight or iViz. Names to check: QuantHealth, Unlearn.AI, Phesi, PhaseV, Deep Origin, PumasAI, Certara, Simulations Plus, Schrodinger, GNQ, Formation Bio. Flatiron, ConcertAI (data sources) and Tempus (proof-of-concept partner) are partners, not competitors, do not position against them.
 
 ---
 
 ## ⚠️ Read first
 
-**Fit re-ranking.** Coharts is a **software/IaaS** company. Strongest fits are tech-bio-crossover and health-tech-software investors who write seed checks into data/AI software. Several therapeutics / company-creation biotech funds (ARCH, 5AM, Catalio, KdT, Playground, and partly DCVC Bio) build and back *drug companies*, not software vendors — approach them as **customers / channel partners / strategic angels**, not lead investors.
+**Email honesty.** VC personal emails are almost never published. Every personal email below is `Inferred-pattern` from third-party aggregators (LeadIQ / RocketReach) unless marked otherwise, low-to-moderate reliability, NOT confirmed. Only firm *general inboxes* are `Verified`. **Prefer warm intro + LinkedIn over cold email.**
 
-**Two corrections vs. the initial draft (both confirmed):**
-1. **Adam Goulburn is NOT at Lux Capital** — he is **Co-Founder & Managing Partner of Dimension Capital** (with Nan Li and Zavain Dar). Lux's health/AI GP is **Deena Shakir**. ([TechCrunch, 2026-07-21](https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/))
-2. **Morgan Cheatham left Bessemer (Apr 2025)** → now **Partner & Head of Healthcare and Life Sciences at Breyer Capital**. Steve Kraus remains at Bessemer. ([Forbes, 2025-04-24](https://www.forbes.com/sites/sindhyavalloppillil/2025/04/24/billionaire-vc-jim-breyer-taps-morgan-cheatham-to-drive-the-future-of-healthcare-and-life-sciences/))
+**Corrections carried from prior research (both confirmed):** Adam Goulburn is at **Dimension Capital** (not Lux, whose health/AI GP is **Deena Shakir**); Morgan Cheatham is now at **Breyer Capital** (not Bessemer, where **Steve Kraus** leads healthcare).
 
-**Email honesty note.** VC *personal* emails are almost never published. **Every personal email below is `Inferred-pattern`** from third-party aggregators (LeadIQ / RocketReach / SignalHire) — low-to-moderate reliability, NOT confirmed. The only `Verified` addresses are firm *general inboxes*. **Prefer warm intro or LinkedIn over cold email.** Verify every address before sending.
+**Verification status:** firms in the "carried, verified" rows had recent-activity and roster checks in the prior pass (sources inline). Rows marked **NEW / confirm** were added for the applied-AI thesis and still need an activity + roster + email pass.
 
 ---
 
-## TIER 1 — Best fit (tech-bio / AI-health software, seed-active)
+## TIER 1 — Best fit (gets BOTH doors: in-silico trials AND applied AI)
 
-| Firm | Fit | Recent activity + date (source) | Key contact | Email (confidence + pattern source) | Fallback |
+| Firm | Fit for Coharts | Recent activity + date (source) | Key contact | Email (confidence) | Fallback |
 |---|---|---|---|---|---|
-| **Dimension Capital** ⭐ | Bull's-eye: life-science × compute/AI; seed-stage | Closed **$800M Fund III, 2026-07-21** ($1.65B AUM); co-led **$30M seed in Chai Discovery** (2024) ([TechCrunch](https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/)) | **Zavain Dar**, Co-Founder & Managing Partner | Personal **Unknown**. `contact@dimensioncap.com` — **Verified** (firm site). Guess `zavain@dimensioncap.com` unconfirmed | [dimensioncap.com](https://www.dimensioncap.com/) |
-| **a16z Bio + Health** | Seed/Series A into AI-in-healthcare software ($1–50M) | AI-health thesis pieces 2026-02; portfolio Hippocratic AI, Turquoise Health ([a16z](https://a16z.com/infinite-healthcare-whats-it-worth/)) | **Julie Yoo**, GP; **Jay Rughani**, Partner | `julie@a16z.com` — **Inferred** (`first@a16z.com` ~55%, LeadIQ); alt `jyoo@a16z.com` (~62%) | [a16z.com/author/julie-yoo](https://a16z.com/author/julie-yoo/) |
-| **8VC** | Tech + life-sciences; pre-seed→A across biotech/digital-health/enterprise | Active seed/A; Scotti backs healthcare×enterprise ([Signal](https://signal.nfx.com/investors/kimmy-scotti)) — *verify a fresh clinical-SW deal* | **Kimmy Scotti**, Founding Partner | `kimmy@8vc.com` — **Inferred** (`first@8vc.com` ~76%, LeadIQ) | [8vc.com/contact](https://8vc.com/contact) |
-| **Section 32** | Frontier tech + healthcare/life-sciences; seed onward | Pellini leads healthcare (Freenome, precision medicine) ([Crunchbase](https://www.crunchbase.com/person/michael-j-pellini)) — *cite a 2025–26 deal in outreach* | **Michael Pellini, MD**, Managing Partner (ex-CEO Foundation Medicine) | `michael@section32.com` — **Inferred** (`first@section32.com` ~72%, RocketReach) | [Pellini LinkedIn](https://www.linkedin.com/in/michael-pellini-57a1b919/) |
-| **Lux Capital** | Frontier science+tech; health/AI-infra + digital health | 2024–25 AI/health deployment; Shakir = digital-health infra, health equity | **Deena Shakir**, General Partner *(Goulburn is at Dimension, not Lux)* | `deena.shakir@luxcapital.com` — **Inferred** (`first.last@luxcapital.com` ~90%, LeadIQ) | [Shakir LinkedIn](https://www.linkedin.com/in/deenashakir) |
-| **Foresite Capital** | Precision medicine + LS **infrastructure**; ML/genetics; seed→B | **$900M Fund VI, Jun 2024**; co-led **$1B Xaira Therapeutics** (Apr 2024) ([BioPharma Dive](https://www.biopharmadive.com/news/foresite-950-million-fund-vi-venture-capital/718617/)) | **Vik Bajaj, PhD**, MD & Co-Founder/CEO Foresite Labs | `vik.bajaj@foresitecapital.com` — **Inferred** (`first.last` ~68%; note vik vs vikram ambiguity) | [foresitecapital.com](https://www.foresitecapital.com/) |
-
-**DCVC Bio** (Kiersten Stead, Managing Partner) — **DCVC Bio III ~$700M+, 2024** ([VCwire](https://vcwire.tech/2024/10/01/dcvc-closes-over-700m-in-new-funds/)); recent deals (Sidewinder, Radionetics, Latus Bio) are **therapeutics/deep-tech**, not clinical software. Fit = moderate; DCVC's *core* (non-Bio) fund does more AI/data software — consider a DCVC generalist partner instead. Email guess `kiersten.stead@dcvc.com` or `kiersten@dcvc.com` (unconfirmed). Fallback: [dcvc.com/team/kiersten-stead](https://www.dcvc.com/team/kiersten-stead/) · [LinkedIn/kstead](https://www.linkedin.com/in/kstead/).
+| **Dimension Capital** ⭐ | Bull's-eye: life-science × compute/AI. Foresight's simulation engine = compute applied to trials; iViz = the AI-native tooling layer | **$800M Fund III, Jul 2026**; co-led $30M seed in Chai Discovery (2024) ([TechCrunch](https://techcrunch.com/2026/07/21/dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming/)) | **Zavain Dar**, Co-Founder & MP | Personal Unknown; `contact@dimensioncap.com` **Verified** | [dimensioncap.com](https://www.dimensioncap.com/) |
+| **a16z Bio + Health** | Funds AI-in-healthcare software at seed; also has a huge applied-AI practice next door | AI-health thesis pieces 2026; Hippocratic AI, Turquoise ([a16z](https://a16z.com/infinite-healthcare-whats-it-worth/)) | **Julie Yoo**, GP; **Jay Rughani**, Partner | `julie@a16z.com` Inferred ~55%; `jyoo@a16z.com` ~62% | [a16z.com/author/julie-yoo](https://a16z.com/author/julie-yoo/) |
+| **Section 32** | Frontier tech + healthcare/life-sciences; Pellini ran Foundation Medicine, gets clinical-data-into-decisions | Leads healthcare (Freenome, precision medicine) ([Crunchbase](https://www.crunchbase.com/person/michael-j-pellini)) | **Michael Pellini, MD**, MP | `michael@section32.com` Inferred ~72% | [LinkedIn](https://www.linkedin.com/in/michael-pellini-57a1b919/) |
+| **Lux Capital** | Frontier science+tech + strong applied-AI/data-infra bench; fits both products | Digital-health infra + AI-health (Shakir) | **Deena Shakir**, GP | `deena.shakir@luxcapital.com` Inferred ~90% | [LinkedIn](https://www.linkedin.com/in/deenashakir) |
+| **Foresite Capital** | Precision medicine + LS **infrastructure**; ML/data-native; Bajaj is MD/PhD data scientist | **$900M Fund VI, Jun 2024**; co-led $1B Xaira (Apr 2024) ([BioPharma Dive](https://www.biopharmadive.com/news/foresite-950-million-fund-vi-venture-capital/718617/)) | **Vik Bajaj, PhD**, MD & Foresite Labs CEO | `vik.bajaj@foresitecapital.com` Inferred ~68% (vik vs vikram) | [foresitecapital.com](https://www.foresitecapital.com/) |
 
 ---
 
-## TIER 2 — Strong fit (health-tech / AI software)
+## TIER 2 — Strong fit (one door strongly, one door partially)
+
+### 2A. TechBio / in-silico trials (Foresight-led)
 
 | Firm | Fit | Recent activity + date (source) | Key contact | Email (confidence) | Fallback |
 |---|---|---|---|---|---|
-| **Menlo Ventures** | Dedicated Bio+Healthcare practice; platforms + digital health + LS software | **Led $70M Series A in Chai Discovery, 2025** ([PharmExec](https://www.pharmexec.com/view/menlo-ventures-led-70-million-series-a-fundraiser-chai-discovery-transform-molecular-design)) | **Greg Yap**, Partner | `greg@menlovc.com` — **Inferred** (`first@menlovc.com` ~79%, LeadIQ) | [menlovc.com/team/greg-yap](https://menlovc.com/team/greg-yap/) |
-| **Breyer Capital** *(added)* | New, well-capitalized health/AI mandate; early-stage biomedical + care | **Cheatham hired Apr 2025** to build HC/LS practice; ex-Bessemer (Abridge, Hinge) ([Forbes](https://www.forbes.com/sites/sindhyavalloppillil/2025/04/24/billionaire-vc-jim-breyer-taps-morgan-cheatham-to-drive-the-future-of-healthcare-and-life-sciences/)) | **Morgan Cheatham, MD**, Partner & Head of HC/LS | pattern **Unconfirmed** — guess `morgan@breyercapital.com` — use LinkedIn | [Cheatham LinkedIn](https://www.linkedin.com/in/morgancheatham/) |
-| **GV (Google Ventures)** | Physician-CS GP co-leading LS; digital health, dx, AI-in-healthcare | Yeshwant co-leads LS (Flatiron, Verve incubation) — *pull a 2025–26 deal* | **Krishna Yeshwant, MD**, Managing Partner | `krishna@gv.com` — **Inferred, low** (`first@gv.com` ~37%, 8 formats) | [gv.com/team/krishna-yeshwant](https://www.gv.com/team/krishna-yeshwant) |
-| **Two Sigma Ventures** | Data-science/ML-first VC; healthcare×data-science practice | 5 investments in 2025; portfolio incl. **insitro** | **Dusan Perovic**, Partner (verify still there) | likely `first@twosigmaventures.com` — **Unconfirmed** | [twosigmaventures.com](https://twosigmaventures.com/our-focus/) |
-| **Khosla Ventures** | Broad AI/ML + bio/healthcare; physician-scientist partner | **Led $50M Series B in Rad AI, 2024** ([Rad AI](https://www.radai.com/news/rad-ai-closes-50-million-to-empower-physicians-with-ai)) | **Alex Morgan, MD/PhD**, Partner | `am@khoslaventures.com` — **Inferred** (`fl` ~61%); alt `alex@` | [khoslaventures.com/team/alex-morgan](https://www.khoslaventures.com/team/alex-morgan) |
-| **Bessemer (BVP)** | Deep health-tech + healthcare-AI roadmap; seed→growth | Publishes **Healthcare AI Roadmap** + 2025 predictions ([BVP Atlas](https://www.bvp.com/atlas/roadmap-healthcare-ai)) | **Steve Kraus**, Partner *(Cheatham left — see Breyer)* | `steve@bvp.com` — **Inferred** (`first@bvp.com`) | [bvp.com](https://www.bvp.com/) |
-| **Zetta Venture Partners** | "First believers in AI"; pre-seed/seed **AI-first B2B** on proprietary data | Backed **VideaHealth $40M (Jan 2025)**; ~$180M fund | **Jocelyn Goldfein**, Managing Director/GP | `jocelyn@zettavp.com` — **Inferred, low** (unconfirmed) | [zettavp.com/team](https://www.zettavp.com/team) |
-| **Amplify Partners** | Seed AI/ML-infra & data (Modal, LangChain, Hex) — frame Coharts as ML/data product | ML-infra focus; less clinical-domain | **Sarah Catanzaro**, General Partner | `sarah@amplifypartners.com` — **Inferred, low** (unconfirmed) | [amplifypartners.com/team/sarah-catanzaro](https://www.amplifypartners.com/team/sarah-catanzaro) |
+| **Menlo Ventures** | Bio+Healthcare practice + a major AI thesis (Anthropic backer); fits both | Led **$70M Series A in Chai Discovery, 2025** ([PharmExec](https://www.pharmexec.com/view/menlo-ventures-led-70-million-series-a-fundraiser-chai-discovery-transform-molecular-design)) | **Greg Yap**, Partner | `greg@menlovc.com` Inferred ~79% | [menlovc.com/team/greg-yap](https://menlovc.com/team/greg-yap/) |
+| **8VC** | Healthcare-data infra + enterprise; maps to Foresight's pharma/CRO buyers | Active seed/A; healthcare×enterprise ([Signal](https://signal.nfx.com/investors/kimmy-scotti)) | **Kimmy Scotti**, Founding Partner | `kimmy@8vc.com` Inferred ~76% | [8vc.com/contact](https://8vc.com/contact) |
+| **GV** | Physician-CS GP co-leading LS; digital health, dx, AI | Yeshwant co-leads LS (Flatiron, Verve) | **Krishna Yeshwant, MD**, MP | `krishna@gv.com` Inferred, low ~37% | [gv.com/team/krishna-yeshwant](https://www.gv.com/team/krishna-yeshwant) |
+| **Breyer Capital** | New, well-capitalized health/AI mandate | **Cheatham hired Apr 2025** to build HC/LS ([Forbes](https://www.forbes.com/sites/sindhyavalloppillil/2025/04/24/billionaire-vc-jim-breyer-taps-morgan-cheatham-to-drive-the-future-of-healthcare-and-life-sciences/)) | **Morgan Cheatham, MD**, Partner/Head HC&LS | pattern Unconfirmed, use LinkedIn | [LinkedIn](https://www.linkedin.com/in/morgancheatham/) |
+| **Obvious Ventures** | Seed/A "human health" + responsible AI | **Fund V $360M, Jan 2026** | **James Joaquin**, Co-Founder/MD | `james@obvious.com` Inferred | [obvious.com/team/james-joaquin](https://obvious.com/team/james-joaquin/) |
+| **DCVC Bio** | Computational bio; note deals lean therapeutics, DCVC *core* fund fits AI/data software better | DCVC Bio III ~$700M, 2024 ([VCwire](https://vcwire.tech/2024/10/01/dcvc-closes-over-700m-in-new-funds/)) | **Kiersten Stead**, MP (or a DCVC core partner) | `kiersten@dcvc.com` Inferred | [dcvc.com/team/kiersten-stead](https://www.dcvc.com/team/kiersten-stead/) |
+
+### 2B. Applied AI / vertical AI / data & dev tooling (iViz + "Applied AI" company narrative)
+
+| Firm | Fit | Recent activity + date | Key contact | Email (confidence) | Fallback |
+|---|---|---|---|---|---|
+| **Zetta Venture Partners** | "First believers in AI"; pre-seed/seed **AI-first B2B** on proprietary data, iViz + Foresight both qualify | Backed VideaHealth $40M (Jan 2025); ~$180M fund | **Jocelyn Goldfein**, MD/GP | `jocelyn@zettavp.com` Inferred, low | [zettavp.com/team](https://www.zettavp.com/team) |
+| **Amplify Partners** | Technical/AI-native seed; data & ML tooling (Modal, LangChain, Hex), direct iViz analog | ML-infra focus | **Sarah Catanzaro**, GP | `sarah@amplifypartners.com` Inferred, low | [amplifypartners.com/team/sarah-catanzaro](https://www.amplifypartners.com/team/sarah-catanzaro) |
+| **Two Sigma Ventures** | Data-science/ML-first VC; healthcare×data-science line; iViz fits the data-tooling thesis | 5 investments in 2025; insitro in portfolio | **Dusan Perovic**, Partner (verify) | likely `first@twosigmaventures.com` Unconfirmed | [twosigmaventures.com](https://twosigmaventures.com/our-focus/) |
+| **Conviction** *(NEW / confirm)* | Applied-AI seed/early ("Software 3.0"); AI-native workbench + agents (Mona/Merlin) is squarely the thesis | Fund II raised 2024 (confirm size/date) | **Sarah Guo**, Founder & GP | pattern Unconfirmed, use LinkedIn/site | [conviction.com](https://www.conviction.com/) |
+| **Radical Ventures** *(NEW / confirm)* | AI-first fund incl. AI-for-science; fits "Applied AI company" narrative | Active AI fund (confirm recent deal + date) | Partner covering AI-for-science (confirm name) | Unconfirmed | radical.vc/team |
+| **Khosla Ventures** | AI-forward + physician-scientist partner; can play either door | Led **$50M Series B in Rad AI, 2024** ([Rad AI](https://www.radai.com/news/rad-ai-closes-50-million-to-empower-physicians-with-ai)) | **Alex Morgan, MD/PhD**, Partner | `am@khoslaventures.com` Inferred ~61%; alt `alex@` | [khoslaventures.com/team/alex-morgan](https://www.khoslaventures.com/team/alex-morgan) |
+| **Bessemer (BVP)** | Health-tech depth + a real applied-AI roadmap; PLG-savvy (fits iViz self-serve) | Publishes Healthcare AI Roadmap ([BVP Atlas](https://www.bvp.com/atlas/roadmap-healthcare-ai)) | **Steve Kraus**, Partner | `steve@bvp.com` Inferred | [bvp.com](https://www.bvp.com/) |
+| **Basis Set Ventures** *(NEW / confirm)* | Seed AI/automation & data-tooling; strong fit for iViz's workflow-automation angle | Active AI seed fund (confirm recent deal + date) | Partner (confirm name) | Unconfirmed | basisset.com/team |
 
 ---
 
-## TIER 3 — Selective / mixed fit
+## TIER 3 — Selective / strategic (approach as customer, channel, or strategic angel, not lead)
 
-**Software-positive:**
-
-| Firm | Fit | Recent activity (source) | Key contact | Email (inferred) | Fallback |
-|---|---|---|---|---|---|
-| **Obvious Ventures** | Seed/A "human health" + responsible AI; $5–12M | **Fund V closed $360M, Jan 2026** | **James Joaquin**, Co-Founder & MD | `james@obvious.com` (unconfirmed) | [obvious.com/team/james-joaquin](https://obvious.com/team/james-joaquin/) |
-| **Civilization Ventures** | Seed health-tech + biology-driven; small, thesis-aligned | ~6 investments in 2025 | **Verify partner** — team page didn't confirm a named lead; do NOT assume Steve Kraus (Bessemer) | general inbox via site | [civilizationventures.com](https://www.civilizationventures.com/) |
-
-**Therapeutics / company-creation funds — lower priority for a software seed (approach as strategic/customer, not lead):**
-
-| Firm | Why lower fit | Recent activity (source) | Key contact | Email (inferred) |
-|---|---|---|---|---|
-| **Casdin Capital** | LS tools + crossover; hedge-fund/therapeutics-heavy | Q2 2025 13F ~$1B (Verve/Relay/Illumina) | **Eli Casdin**, Founder/CIO | `eli@casdincapital.com` (unconfirmed) |
-| **Catalio Capital** | Biomedical therapeutics/devices; software rare | **Nexus Fund IV >$400M, Jul 2025** | **R. Jacob Vogelstein, PhD**, Co-Founder & MP | `jacob@cataliocapital.com` (unconfirmed) |
-| **KdT Ventures** | "Data, engineering & biology" but deals mostly therapeutics | Skeletalis $8M A (2025-11); Zag Bio $80M (2025-10) | **Mack Healy**, Partner / founder **Cain McClary, MD** | `mack@kdtventures.com` (unconfirmed) |
-| **Playground Global** | Deep-tech + engineered biology; therapeutics-tools | Fund III $410M (Ultima Genomics, Strand) | **Jory Bell**, General Partner | `jory@playground.vc` (unconfirmed) |
-| **ARCH Venture** | Biotech company-creation at scale; funds drug cos | **Fund XIII >$3B, Sept 2024** (Xaira, Metsera) | Firm-level (Robert Nelsen et al.) | general inbox via site |
-| **5AM Ventures** | Pure therapeutics VC; not a software investor | Mendra $82M A (Jan 2026) | **Andrew (Andy) Schwab**, Founder & MP | `aschwab@5amventures.com` (unconfirmed) |
+Therapeutics / company-creation funds (they back drug companies, not software): **Casdin** (Eli Casdin), **Catalio** (Jacob Vogelstein; Nexus IV >$400M, Jul 2025), **KdT** (Mack Healy / Cain McClary), **Playground Global** (Jory Bell), **ARCH** (Fund XIII >$3B, Sept 2024), **5AM** (Andy Schwab, off-thesis, pure therapeutics). Also **Civilization Ventures** (verify named partner). All emails inferred/unconfirmed; see prior research notes.
 
 ---
 
 ## How to approach — top 5 first
 
-1. **Dimension Capital (Zavain Dar)** — *the* highest-fit fund; just raised $800M, explicitly hunts life-science × compute. **Angle:** lead with Foresight's *simulation* engine as "compute applied to clinical development"; reference Zavain's published TechBio thesis. **Warm intro** via a Chai Discovery / tech-bio operator.
-2. **a16z Bio+Health (Yoo / Rughani)** — published on AI compressing clinical/healthcare cost curves. **Angle:** "AI that expands scarce clinical-development capacity." Route via an a16z portfolio founder. Yoo = payer/provider-software lens; Rughani = AI-health.
-3. **Section 32 (Pellini)** — ran Foundation Medicine; *gets* clinical-data-into-decisions. **Angle:** PRISM/Foresight as the software layer biotech/pharma need for development decisions. Intro via a Foundation Medicine / Freenome alum.
-4. **Menlo Ventures (Greg Yap)** — active, led Chai's Series A; dedicated bio+healthcare partner backing LS software/platforms. **Angle:** "foundation-model + proprietary clinical data → decision software."
-5. **Foresite Capital (Vik Bajaj)** — invests in LS infrastructure + ML/genetics; Bajaj is a data-science-native MD/PhD. **Angle:** Coharts as clinical-development *infrastructure*; Foresite invests across stages so they can follow.
+1. **Dimension Capital (Zavain Dar)** — highest fit; fresh $800M; explicitly life-science × compute. **Angle:** Foresight = compute applied to clinical development; iViz = the AI-native analysis layer. Lead with the **LEAP validation** as evidence. Warm intro via a Chai Discovery founder / tech-bio operator.
+2. **a16z Bio+Health (Yoo / Rughani)** — health-software partner with the applied-AI machine behind them. **Angle:** "Applied AI that expands scarce clinical-development capacity, plus a self-serve analysis product with real usage." Route via a portfolio founder.
+3. **Section 32 (Pellini)** — ran Foundation Medicine; gets clinical-data decisions. **Angle:** Foresight de-risks go/no-go before Patient One; cite the ±0.6mo LEAP result. Intro via an FMI / Freenome alum.
+4. **Menlo Ventures (Greg Yap)** — bio+healthcare partner inside a top AI fund; led Chai's Series A. **Angle:** "foundation-model + pharmacology + digital-twin cohorts → trial decisions."
+5. **Conviction (Sarah Guo)** — pure applied-AI thesis; the iViz workbench + Mona/Merlin agents are exactly her lane, and Foresight is the defensible vertical. **Angle:** "Applied AI company: a horizontal AI data workbench with a high-value clinical-simulation wedge." *(Verify her fund status + best contact path first.)*
 
-**General warm-intro tactics:** (a) mine the cap table / advisors / customers for existing LPs or portfolio-founder connections; (b) the biotech2050 / Heart of Healthcare / BiotechTV podcast circuit is a soft touchpoint (Bajaj, Kraus, Yap appear); (c) for Bessemer/Breyer, Kraus and Cheatham co-host healthcare content — engaging there is a legitimate warm-up.
-
----
-
-## Verification notes (what could NOT be confirmed)
-
-- **No personal VC email here is "Verified."** VC firms do not publish individual partner addresses. Every personal address is `Inferred-pattern` from third-party scraping sites (LeadIQ / RocketReach / SignalHire) — themselves derived, not authoritative. Confidence is highest where one pattern dominates (Lux `first.last` ~90%; Menlo/8VC/Section 32 `first@` ~72–79%) and lowest where formats are split (GV 8 formats/~37%; Khosla `fl` vs `first`).
-- **Only Verified addresses = firm general inboxes:** `contact@dimensioncap.com`. ⚠️ Do NOT confuse the Florida "Dimension Capital Management" with the tech-bio "Dimension" (dimensioncap.com).
-- **Breyer, Two Sigma Ventures, Zetta, Amplify, Civilization, KdT, Playground:** email *pattern* not confirmed from a known address — guesses are low-confidence; use LinkedIn.
-- **Foresite:** ambiguity on `vik` vs `vikram` in the local-part — verify before sending.
-- **Section 32 domain** is `section32.com` (not `s32.com`).
-- **Two Sigma Ventures healthcare lead (Dusan Perovic)** surfaced via firm materials but not re-confirmed on a live team page — verify before outreach.
-- **Recommendation:** given uniformly weak email verifiability, prioritize **warm intros + LinkedIn** over cold email for all five top targets.
+**Warm-intro tactics:** mine the cap table / advisors / customers for portfolio-founder or LP connections; the biotech2050 / Heart of Healthcare podcast circuit is a soft touch (Bajaj, Kraus, Yap appear). Lead every conversation with the **LEAP validation** as the credibility anchor.
 
 ---
 
-*Sources are cited inline. Recent-activity and email fields were compiled from public web research (research date 2026-07-27) and must be re-verified before use in live outreach.*
+## Round context (from investor-scout reference; confirm before use)
+
+- Angel round closed **August 2026** on a legacy pre-money SAFE at a **$17.5M cap**.
+- Projected **Seed pre-money $25M to $35M**. Confirm target raise and lead-vs-participant preference before finalizing outreach order.
+
+## Verification notes / what could not be done this session
+
+- **Premium data sources not connected:** PitchBook, CB Insights, ZoomInfo, and HubSpot were unavailable, so this is not the fully-sourced, scored Excel workbook the investor-scout method specifies, and firms could **not** be deduped against the existing HubSpot pipeline. Reconnect those to produce the scored workbook and conflict-check at scale.
+- **No personal email here is Verified.** Prioritize warm intros + LinkedIn.
+- **NEW / confirm rows** (Conviction, Radical, Basis Set) were added for the applied-AI thesis from general knowledge and still need an activity + roster + email verification pass.
+- coharts.com is blocked by this session's egress policy; product facts above were taken from the live page content Nate supplied plus the Coharts brand guidelines.
+
+---
+
+*Sources cited inline. Recent-activity and email fields must be re-verified before live outreach.*
