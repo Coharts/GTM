@@ -1,6 +1,8 @@
 # Coharts Seed Round — Applied AI VC Target List
 
-**Prepared:** 2026-07-27 · **Revised:** 2026-09-30 (reframed to current product line from coharts.com) · **Owner:** Nate (nate@coharts.com) · **Status:** Research draft, verify before outreach
+**Prepared:** 2026-07-27 · **Revised:** 2026-10-02 · **Owner:** Nate (nate@coharts.com) · **Status:** Research draft, verify before outreach
+
+> **POSITIONING UPDATE (2026-10-02, per the Oct 2026 investor deck):** Coharts has repositioned from "two AI products" to **drug-development infrastructure / system of record** — "one record per program, from first assay to filing, with the models built in." **Foresight Base** (the program record, $2K/program/month, Part 11 + ICH E6(R3) data management) is the wedge; PRISM / ATHENA / BEAM / CTS / iViz are modules that switch on by stage. It now also competes with the record/eTMF vaults (Veeva, Medidata Rave, Benchling), which adds a **third investor door: enterprise / vertical-SaaS / dev-infrastructure**. **The ask is a $6M seed** (not the $25-35M pre-money placeholder used earlier). The scored workbook (`coharts-seed-investor-pipeline.xlsx`) reflects this; the product descriptions in the body below are being migrated to the infrastructure framing.
 
 ## What Coharts is (current, per coharts.com)
 

@@ -2,7 +2,7 @@
 
 **Purpose:** target investors for warm intros, with the specific contact at each firm. DLA has the emails.
 
-**Coharts in one line:** An Applied AI company for clinical development. *Foresight* simulates clinical trials before patient one (validated retrospectively and prospectively; Tempus proof-of-concept partnership and Synthon pilot live). *iViz* is our AI data-analysis workbench. Raising a seed round.
+**Coharts in one line:** An Applied AI company building drug-development infrastructure, with the models built in. *Foresight* is one record per program, from first assay to filing, with trial simulation and analysis running on top (Part 11 and ICH E6(R3) data management included). Validated retrospectively, with NSCLC in proof of concept; Tempus POC and Synthon pilot live. Raising a $6M seed.
 
 *(Radical Ventures is intentionally excluded: portfolio conflict.)*
 
