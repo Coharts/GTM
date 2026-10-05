@@ -3,11 +3,12 @@
 **Prepared:** 2026-10-05 · **Owner:** Nate (nate@coharts.com) · **Use for:** cold channels (LinkedIn, PitchBook-sourced email). Warm/DLA-routed and direct-relationship firms run on their own tracks.
 
 ## The one-liner (use everywhere, verbatim)
-> An Applied AI company building **drug-development infrastructure, with the models built in**. Foresight is one record per program, from first assay to filing, with trial simulation and analysis running on top (Part 11 and ICH E6(R3) data management included). Validated retrospectively, with NSCLC in proof of concept. **Tempus POC and Synthon pilot live. Raising a $6M seed.**
+> An Applied AI company: **the intelligence layer between a molecule and a medicine**. Foresight is AI-native, IaaS drug-development infrastructure that connects raw assay to regulatory submission and **simulates trial success before patient one** (BEAM builds documented models, CTS runs the trial in silico, iViz analyzes). Automated ICH E6(R3) governance and ICH M15 model credibility are built in as the regulatory moat, not the pitch. Validated retrospectively (NSCLC in proof of concept). **Tempus POC, Synthon pilot, and a Lilly CDA live. Raising a seed.**
 
 ## Rules (keep every message on-brand and credible)
-- **Proof first, not adjectives.** Lead with Tempus POC + Synthon pilot + retrospective validation. Do not claim prospective validation (NSCLC is in PoC). Never claim FDA qualification.
-- **IaaS, never "SaaS." No em dashes.** Say "infrastructure / system of record," not "simulation tool."
+- **Lead with the intelligence layer and "simulate trial success before patient one."** That is the product. ICH E6(R3) governance and ICH M15 credibility are the **moat** (provable to a regulator) — a supporting line, never the headline.
+- **Proof first, not adjectives.** Tempus POC + Synthon pilot + Lilly CDA + retrospective validation. Do not claim prospective validation (NSCLC is in PoC). Never claim FDA qualification.
+- **IaaS, never "SaaS." No em dashes.** Say "intelligence layer / infrastructure," not "simulation tool" and not "data-management product."
 - **One specific reason per firm.** The first line must name why *that* fund, referencing a recent deal or their stated thesis. Generic = ignored.
 - **One clear ask:** a 20-minute call; offer the deck ahead.
 - **Short.** Connection notes under 300 characters; DMs and emails under 150 words.
@@ -17,14 +18,14 @@
 ## Channel 1 — LinkedIn
 
 ### A. Connection request note (<300 characters)
-> Hi [First], I'm Nate, founder of Coharts. We build drug-development infrastructure with the models built in: one program record, with trial simulation on top. Tempus POC and Synthon pilot live. Raising a $6M seed and [firm]'s [thesis/area] is a strong fit. Would value connecting.
+> Hi [First], I'm Nate, founder of Coharts, the intelligence layer between a molecule and a medicine. We simulate trial success before patient one, raw assay to submission. Tempus POC, Synthon pilot, Lilly CDA. Raising a seed and [firm]'s [thesis/area] is a strong fit. Would value connecting.
 
 ### B. First DM after they accept (or InMail if you have it)
 > Thanks for connecting, [First].
 >
-> Quick context: Coharts is building the system of record for drug development, with the models built in. Foresight holds one record per program (Part 11 and ICH E6(R3) data management included), and trial simulation and analysis run on top of it. It is validated retrospectively, with NSCLC in proof of concept.
+> Quick context: Coharts is the intelligence layer between a molecule and a medicine. Foresight connects raw assay to regulatory submission and simulates trial success before patient one: BEAM builds documented models, CTS runs the trial in silico, iViz analyzes. ICH E6(R3) governance and ICH M15 credibility are built in, so the output is provable to a regulator. Validated retrospectively (NSCLC in proof of concept).
 >
-> [One specific reason this fund fits.] We have a Tempus POC and a completed Synthon pilot, and we are raising a $6M seed.
+> [One specific reason this fund fits.] We have a Tempus POC, a completed Synthon pilot, and a Lilly CDA, and we are raising a seed.
 >
 > Open to a 20-minute call in the next week or two? I will send the deck first so it is a good use of your time.
 
@@ -42,15 +43,15 @@ PitchBook is a **sourcing and personalization** tool, not a send channel. Use it
 4. Then send the email below from nate@coharts.com.
 
 ### Cold email template
-> **Subject:** Coharts — the system of record for drug development ([specific hook])
+> **Subject:** Coharts — the intelligence layer between a molecule and a medicine ([specific hook])
 >
 > Hi [First],
 >
-> I am Nate, founder of Coharts. We build drug-development infrastructure with the models built in: one record per program, from first assay to filing, with trial simulation and analysis running on top. Part 11 and ICH E6(R3) data management are included, so the record is provable to a regulator.
+> I am Nate, founder of Coharts. We are the intelligence layer between a molecule and a medicine: AI-native drug-development infrastructure that connects raw assay to regulatory submission and simulates trial success before patient one. BEAM builds documented models, CTS runs the trial in silico, and iViz analyzes. ICH E6(R3) governance and ICH M15 model credibility are built in, so the output is provable to a regulator.
 >
-> [One specific reason, e.g. "I saw [firm] led [portfolio co]'s round; we are the infrastructure layer underneath that thesis."]
+> [One specific reason, e.g. "I saw [firm] led [portfolio co]'s round; we are the intelligence layer underneath that thesis."]
 >
-> Where we are: a Tempus proof-of-concept partnership, a completed Synthon generics pilot (paid conversion in negotiation), and retrospective validation on real trials (NSCLC in proof of concept). We are raising a $6M seed.
+> Where we are: a Tempus proof-of-concept partnership, a completed Synthon generics pilot (paid conversion in negotiation), a CDA with Lilly, and retrospective validation on real trials (NSCLC in proof of concept). We are raising a seed.
 >
 > Would you be open to a 20-minute call in the next two weeks? I will send the deck ahead.
 >
